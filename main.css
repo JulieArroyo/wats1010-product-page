@@ -2,7 +2,108 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding-top: 0;
+    padding-bottom:0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	
+}
+ul.nav li{
+	display:inline;
+	padding:1rem;
+}
+.navbar{
+	margin-bottom:5%;
+	margin-top:0;
+}
+.container-fluid{
+	padding-bottom:0;
+	padding-top:10px;
+	
+}
+header{
+	padding-bottom:3%;
+	
+}
+.container{
+	margin-right:5%;
+	margin-left:5%;
+	
+}
+#top{
+	background-image:url("/design/snap1.png");
+	background-repeat:no-repeat ;
+	background-size:cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	top:0;
+	height:750px;
+	width:100%;
+	border-bottom:5px solid white;
+}
+
+iframe{
+	border:2px solid gray;
+	margin-bottom:5%;
+	margin-top:3%;
+}
+
+.description .col-md-4{
+	text-align:center;
+	margin-top:0;
+	font-size:16px;
+	margin-bottom:60px;
+}
+
+p{
+	font-size:14px;
+}
+#bottom{
+	background-color:#eaeae3;
+	border-top:5px solid white;
+	padding-left:5%;
+}
+
+.list-unstyled li{
+	font-size:14px;
+	padding-top:1em;
+}
+.row{
+	padding-top:3%;
+}
+
+.testimonials .col-md-3{
+	margin:3%;
+	border:2px solid gray;
+	background-color:white;
+}
+.testimonials p{
+	padding-top:1em;
+}
+.features .col-md-3{
+	margin:3%;
+	padding-bottom:14%;
+	border:2px solid gray;
+	background-color:white;
+	
+}
+.api .col-md-3{
+	margin:3%;
+	padding-bottom:35px;
+	border:2px solid gray;
+	background-color:white;
+	list-style-type:none;
+}
+.panel-body li{
+	display:inline;
+	padding:1rem;
+
+}
+.panel-default{
+	margin-top:15%;
+	padding-bottom:0;
+	margin-bottom:0;
+	max-width:100%;
 }
