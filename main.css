@@ -30,7 +30,7 @@ ul.nav li{
 }
 header.container-fluid{
 	padding-bottom:25%;
-	background-image:url("/design/buisness-internet.jpg");
+	background-image:url("design/buisness-internet.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 	border-bottom:2px solid rgb(173,4,90);
